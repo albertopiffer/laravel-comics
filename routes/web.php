@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $data = [
+        'bruh' => 'bruh',
         'comics' => [
             [
                 "title" => "Action Comics #1000: The Deluxe Edition",
@@ -231,5 +232,5 @@ Route::get('/', function () {
         ]
     ];
 
-    return view('welcome');
+    return view('welcome', $data);
 });
