@@ -1,0 +1,31 @@
+.top-bar {
+    height: 25px;
+
+    background-color: blue;
+    color: white;
+}
+
+.main-header {
+    padding: 20px 0;
+
+    background-color: white;
+    color: black;
+
+    text-transform: uppercase;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.jumbotron {
+    height: 400px;
+
+    background-image: url('../img/jumbotron.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
